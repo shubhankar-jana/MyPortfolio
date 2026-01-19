@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubhankar Jana | Senior Full Stack Developer & Technical Lead</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Premium Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <a href="#" class="logo">Shubhankar<span class="logo-dot"></span></a>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="resume-btn"><i class="fas fa-file-download"></i> Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Enhanced Hero Section -->
+    <header id="home">
+        <div class="particles-container" id="particles"></div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="greeting">Hi there, I'm</div>
+                
+                <div class="name-animation-container">
+                    <div class="name-animation" id="nameElement">Shubhankar Jana</div>
+                </div>
+                
+                <h1 class="title">Senior Full Stack Developer & <span class="highlight">Technical Lead</span></h1>
+                
+                <p class="description">
+                    I craft high-performance, scalable web applications with cutting-edge technologies.
+                    With over 7 years of experience, I specialize in transforming complex problems into elegant,
+                    efficient solutions that drive business growth and user engagement.
+                </p>
+                
+                <div class="cta-buttons">
+                    <a href="#projects" class="cta-button primary">
+                        <i class="fas fa-rocket"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="cta-button secondary">
+                        <i class="fas fa-paper-plane"></i>
+                        Let's Connect
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Profile Image Section -->
+            <div class="hero-profile">
+                <div class="profile-image-wrapper">
+                    <div class="profile-image">
+                        <!-- Replace with your photo -->
+                        <!-- <i class="fas fa-user-tie"></i> -->
+                        <img src="portfolioboy2.avif" alt="Shubhankar Jana">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Enhanced About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Senior Full Stack Developer & Technical Lead based in Kolkata, India, 
+                        with a passion for creating exceptional digital experiences. My journey in 
+                        technology began over a decade ago, and I've since evolved into a versatile 
+                        developer who thrives on solving complex challenges.
+                    </p>
+                    
+                    <p>
+                        My expertise spans the entire development stack, from architecting robust 
+                        backend systems to crafting intuitive user interfaces. I believe in writing 
+                        clean, maintainable code and following best practices that ensure scalability 
+                        and performance.
+                    </p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">50K+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">7K+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">30K+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15K+</div>
+                            <div class="stat-label">Lines of Code</div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-stack">
+                        <div class="tech-item">JavaScript (ES6+)</div>
+                        <div class="tech-item">TypeScript</div>
+                        <div class="tech-item">React & Next.js</div>
+                        <div class="tech-item">Node.js & Express</div>
+                        <div class="tech-item">Python & Django</div>
+                        <div class="tech-item">GraphQL & REST APIs</div>
+                        <div class="tech-item">MongoDB & PostgreSQL</div>
+                        <div class="tech-item">AWS & Google Cloud</div>
+                        <div class="tech-item">Docker & Kubernetes</div>
+                        <div class="tech-item">CI/CD & DevOps</div>
+                    </div>
+                </div>
+                
+                <div class="profile-image-container">
+                    <div class="profile-image-wrapper">
+                        <div class="profile-image">
+                            <!-- Replace with your photo -->
+                            <!-- <i class="fas fa-user-tie"></i> -->
+                            <img src="portfolioboy2.avif" alt="Shubhankar Jana">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Experience Section with Tabs -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+            </div>
+            
+            <div class="experience-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-button active" data-tab="tab1">Tech Innovations</button>
+                    <button class="tab-button" data-tab="tab2">Digital Solutions</button>
+                    <button class="tab-button" data-tab="tab3">WebCraft Studios</button>
+                    <button class="tab-button" data-tab="tab4">Google</button>
+                    <button class="tab-button" data-tab="tab5">Microsoft</button>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-panel active" id="tab1">
+                        <div class="timeline-item">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Senior Full Stack Developer</h3>
+                                <div class="timeline-company">Tech Innovations Inc.</div>
+                                <span class="timeline-date">2021 - Present</span>
+                            </div>
+                            <p class="timeline-description">
+                                Lead development of enterprise-grade web applications serving 500K+ users.
+                                Architected microservices-based solutions that improved system performance by 40%.
+                                Implemented CI/CD pipelines reducing deployment time by 70%.
+                                Mentored 5 junior developers and established coding standards.
+                            </p>
+                            <div class="timeline-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">AWS</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">Kubernetes</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-panel" id="tab2">
+                        <div class="timeline-item">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Full Stack Developer</h3>
+                                <div class="timeline-company">Digital Solutions Ltd.</div>
+                                <span class="timeline-date">2019 - 2021</span>
+                            </div>
+                            <p class="timeline-description">
+                                Developed scalable e-commerce platforms and business management tools.
+                                Implemented real-time features using WebSocket and Redis.
+                                Collaborated with cross-functional teams to deliver projects on time.
+                                Reduced application load time by 60% through optimization.
+                            </p>
+                            <div class="timeline-tech">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Redis</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-panel" id="tab3">
+                        <div class="timeline-item">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Frontend Developer</h3>
+                                <div class="timeline-company">WebCraft Studios</div>
+                                <span class="timeline-date">2017 - 2019</span>
+                            </div>
+                            <p class="timeline-description">
+                                Created responsive user interfaces for various clients across industries.
+                                Implemented design systems and component libraries.
+                                Optimized web applications for performance and accessibility.
+                                Achieved 95+ Lighthouse scores for all projects.
+                            </p>
+                            <div class="timeline-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">SCSS</span>
+                                <span class="tech-tag">Webpack</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-panel" id="tab4">
+                        <div class="timeline-item">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Software Engineer</h3>
+                                <div class="timeline-company">Google</div>
+                                <span class="timeline-date">2015 - 2017</span>
+                            </div>
+                            <p class="timeline-description">
+                                Contributed to Google's internal tools and infrastructure.
+                                Developed scalable microservices handling millions of requests.
+                                Implemented advanced caching strategies improving response times by 50%.
+                                Worked on Google Cloud Platform integrations.
+                            </p>
+                            <div class="timeline-tech">
+                                <span class="tech-tag">Go</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">GCP</span>
+                                <span class="tech-tag">Kubernetes</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-panel" id="tab5">
+                        <div class="timeline-item">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Junior Developer</h3>
+                                <div class="timeline-company">Microsoft</div>
+                                <span class="timeline-date">2014 - 2015</span>
+                            </div>
+                            <p class="timeline-description">
+                                Started career at Microsoft as a Junior Developer.
+                                Worked on Azure cloud services and Office 365 integrations.
+                                Learned enterprise development practices and agile methodologies.
+                                Contributed to open-source projects under Microsoft.
+                            </p>
+                            <div class="timeline-tech">
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">.NET</span>
+                                <span class="tech-tag">Azure</span>
+                                <span class="tech-tag">SQL Server</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i class="fas fa-code"></i> Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">React.js</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="95"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">TypeScript</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Next.js</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="92"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Vue.js</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-percentage">93%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="93"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">GraphQL</span>
+                                <span class="skill-percentage">87%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="87"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-percentage">91%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="91"></div></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i class="fas fa-cloud"></i> DevOps & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Docker</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">AWS</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Git</span>
+                                <span class="skill-percentage">96%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="96"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">CI/CD</span>
+                                <span class="skill-percentage">89%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="89"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-network"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Enterprise Analytics Platform</h3>
+                        <p class="project-description">
+                            A comprehensive analytics dashboard with real-time data visualization,
+                            predictive analytics, and custom reporting for enterprise clients.
+                            Processes millions of data points daily with sub-second latency.
+                            Features include AI-powered insights and automated reporting.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Microservices</h3>
+                        <p class="project-description">
+                            A scalable e-commerce platform built with microservices architecture.
+                            Features advanced product filtering, personalized recommendations,
+                            and integrated payment processing with Stripe and PayPal.
+                            Handles 10K+ concurrent users with 99.9% uptime.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Kafka</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Fintech Mobile Banking</h3>
+                        <p class="project-description">
+                            A secure mobile banking application with biometric authentication,
+                            real-time notifications, intelligent budgeting tools, and investment tracking.
+                            Serves 100K+ active users with 99.9% uptime and bank-grade security.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">AWS Lambda</span>
+                            <span class="tech-tag">DynamoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Professional Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="section-subtitle">Get In Touch</div>
+                <h2 class="contact-title">Contact Me</h2>
+                <p class="contact-subtitle">
+                    I'm currently open to new opportunities, interesting projects, and collaborations.
+                    Whether you have a question or just want to say hello, I'll do my best to get back to you promptly!
+                </p>
+                
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Kolkata, India</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>shubhankar.jana@example.com</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>+91 98765 43210</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Availability</h3>
+                        <p>Open to New Opportunities</p>
+                    </div>
+                </div>
+                
+                <div class="contact-cta">
+                    <a href="mailto:shubhankar.jana@example.com" class="email-link">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Me a Message
+                    </a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-dev"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">Shubhankar Jana</a>
+                <p class="footer-text">
+                    Senior Full Stack Developer & Technical Lead specializing in creating exceptional 
+                    digital experiences through innovative solutions and cutting-edge technologies.
+                </p>
+                
+                <div class="footer-quote">
+                    "The best way to predict the future is to create it."
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </div>
+                
+                <div class="copyright">
+                    Designed & Built with <span class="heart">❤</span> by Shubhankar Jana
+                    <br>
+                    © 2024 All Rights Reserved | Made with Passion & Excellence
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Feature Notification (Middle of screen) -->
+    <div class="feature-notification" id="featureNotification">
+        <i class="fas fa-info-circle"></i>
+        <div class="feature-notification-content">
+            <div class="feature-notification-title" id="featureTitle">Welcome!</div>
+            <div class="feature-notification-message" id="featureMessage">Welcome to my portfolio! Explore my work and experience.</div>
+        </div>
+        <button class="feature-notification-close" id="featureNotificationClose">
+            Got it!
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
